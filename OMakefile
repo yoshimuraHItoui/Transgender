@@ -1,0 +1,9 @@
+LATEX           = platex
+DVIPDFM         = dvipdfmx
+DVIPDFMFLAGS    = -p a5
+
+TEXDEPS[] = ./chapter/1.tex
+
+LaTeXDocument(tg, tg)
+
+.DEFAULT: tg.pdf tg.dvi
