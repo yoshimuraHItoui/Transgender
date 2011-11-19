@@ -2,7 +2,9 @@ LATEX           = platex
 DVIPDFM         = dvipdfmx
 DVIPDFMFLAGS    = -p a5
 
-TEXDEPS[] = ./chapter/1.tex
+TEXDEPS[] = 
+          ./c1/1.tex
+          ./c1/2.tex
 
 LaTeXDocument(tg, tg)
 
