@@ -1,0 +1,7 @@
+=encoding utf8
+
+=head1 概要
+
+=head1 登場人物
+
+=head1 あらすじ
